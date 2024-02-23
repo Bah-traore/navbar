@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mon projet</title>
+    <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <style>
+    body{
+        background-color: burlywood;
+    }
+    a{
+        margin-left: 10px;
+        cursor: pointer;
+    }
+    nav > ul > li{
+        display: inline-block;
+        margin: 10px;
+        text-transform: capitalize;
+        cursor: pointer;
+    }
+    nav > ul > li:hover{
+        border-top: rgb(129, 187, 123) solid 5px;
+        transition: 150ms ease;
+        background-color: #49744e;
+        padding-right: 10px;
+        border-radius: 5px;
+    }
+    .nav-link{
+        display: inline;
+    }
+    @media screen and (max-width: 554px) {
+        ul{
+            font-size: 10px;
+            margin: 5px;
+        }
+    }
+  </style>
+</head>
+<body>
+    <nav class="navbar  bg-black text-white ">
+        <a>Mon projet</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        <ul class="">
+            <li class="nav-link disabled">By-Mr.tanjiro</li>
+            <li><a href="#"></a>Acceuil</li>
+            <li><a href="#"></a>Apropos</li>
+            <li><a href="#"></a>Contact</li>
+        </ul>
+        
+    </nav>
+    <div style="margin-top: 10%;" class="text-center">
+        <h1>Seydou Bah</h1>
+    </div>
+</body>
+</html>
